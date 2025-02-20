@@ -1,19 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fondoazul">
+
+    <ImageView
+        android:layout_width="124dp"
+        android:layout_height="123dp"
+        android:background="@drawable/dd"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="50dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="10dp"
+        android:text="LOGIN"
+        android:textColor="#0000FF"
+        android:textSize="30dp"
+        android:fontFamily="serif"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:text="Username"
+        android:textColor="#0000FF"
+        android:layout_marginTop="23dp"/>
+
+    <EditText
+        android:layout_width="304dp"
+        android:layout_height="73dp"
+        android:textSize="15dp"
+        android:layout_marginStart="23dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:text="Password"
+        android:textColor="#0000FF"/>
+
+    <EditText
+        android:layout_width="304dp"
+        android:layout_height="73dp"
+        android:textSize="15dp"
+        android:inputType="textPassword"
+        android:layout_marginStart="23dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:text="Forgot Password"
+        android:textColor="#0000FF"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="190dp"
+        android:text="Don't have account... Create"
+        android:textColor="#0000FF"
+        />
+
+
+
+</LinearLayout>
