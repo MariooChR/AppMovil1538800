@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical"
+    android:background="@drawable/fondoazul">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:textSize="40dp"
+        android:letterSpacing="0.1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Apellidos y Nombres:"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/design_default_color_primary_variant"/>
+
+    <EditText
+        android:id="@+id/btnNombresLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Nombres y Apellidos"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Correo Electronico:"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/design_default_color_primary_variant"/>
+
+    <EditText
+        android:id="@+id/txtEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Correo Electronico"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Numero de Telefono:"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/design_default_color_primary_variant"/>
+
+    <EditText
+        android:id="@+id/txtNumeroLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Numero de Telefono"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:inputType="number"
+        android:maxLength="9"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Contraseña:"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/design_default_color_primary_variant"/>
+
+    <EditText
+        android:id="@+id/txtPassLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Contraseña"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:inputType="numberPassword"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="1"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTRAR"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@android:color/holo_orange_dark"/>
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCELAR"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@android:color/holo_orange_dark"/>
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIMPIAR"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@android:color/holo_orange_dark"/>
+
+
+
+    </GridLayout>
+
+</LinearLayout>
