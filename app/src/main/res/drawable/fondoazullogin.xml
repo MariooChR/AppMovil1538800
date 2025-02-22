@@ -3,9 +3,9 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <bitmap
-            android:src="@drawable/azul"
+            android:src="@drawable/fondoazul"
             android:gravity="fill"
-            android:alpha="0.6">
+            android:alpha="1">
         </bitmap>
     </item>
 </layer-list>

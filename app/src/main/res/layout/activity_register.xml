@@ -29,7 +29,7 @@
         android:textColor="@color/design_default_color_primary_variant"/>
 
     <EditText
-        android:id="@+id/btnNombresLogin"
+        android:id="@+id/txtNombresRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese Nombres y Apellidos"
@@ -46,7 +46,7 @@
         android:textColor="@color/design_default_color_primary_variant"/>
 
     <EditText
-        android:id="@+id/txtEmailLogin"
+        android:id="@+id/txtEmailRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese Correo Electronico"
@@ -63,7 +63,7 @@
         android:textColor="@color/design_default_color_primary_variant"/>
 
     <EditText
-        android:id="@+id/txtNumeroLogin"
+        android:id="@+id/txtNumeroRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese Numero de Telefono"
@@ -81,7 +81,7 @@
         android:textColor="@color/design_default_color_primary_variant"/>
 
     <EditText
-        android:id="@+id/txtPassLogin"
+        android:id="@+id/txtPassRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Ingrese Contraseña"

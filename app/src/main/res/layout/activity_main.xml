@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@drawable/fondoazul">
+    android:background="@drawable/fondoazullogin">
 
     <ImageView
         android:layout_width="124dp"
@@ -39,7 +39,8 @@
         android:layout_width="304dp"
         android:layout_height="73dp"
         android:textSize="15dp"
-        android:layout_marginStart="23dp"/>
+        android:layout_marginStart="23dp"
+        android:textColor="#000000"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,9 +55,11 @@
         android:layout_height="73dp"
         android:textSize="15dp"
         android:inputType="textPassword"
-        android:layout_marginStart="23dp"/>
+        android:layout_marginStart="23dp"
+        android:textColor="#000000"/>
 
     <TextView
+        android:id="@+id/lblResetPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="220dp"
